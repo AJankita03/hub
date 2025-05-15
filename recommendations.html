@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recommendations | Stree Shakti</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="podcasts.html">🎙 </a></li>
+      <li><a href="connections.html">🌐 </a></li>
+      <li><a href="recommendations.html">🎬 </a></li>
+    </ul>
+    
+  </nav>
+  <button id="toggleTheme" class="theme-toggle">🌓 Toggle Theme</button>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="🔍 Search..." onkeyup="filterItems()" />
+  </div>
+  
+  <header>
+    <h1>🎬 Women-Centric Recommendations</h1>
+    <p>Watch stories of courage, identity, and women breaking barriers</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">💡 Empowering Films & Series</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/in/title/70293796" target="_blank">Queen (2014)</a>
+          <p>A woman embarks on a solo trip of self-discovery. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/70293837" target="_blank">Kahaani (2012)</a>
+          <p>A pregnant woman search leads to thrilling revelations. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.zee5.com/series/details/ayali/0-6-4z5260072" target="_blank">Ayali (2023)</a>
+          <p>A girl defies regressive traditions. <strong>ZEE5</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/80190844" target="_blank">Daughters of Destiny (2017)</a>
+          <p>Girls striving for a better future through education. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/80202462" target="_blank">Self Made (2020)</a>
+          <p>Life of Madam C.J. Walker. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.youtube.com/watch?v=KJ1k5BuvkVg" target="_blank">Man's World (2015)</a>
+          <p>What if gender roles were reversed? <strong>YouTube</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/80231279" target="_blank">On the Basis of Sex (2018)</a>
+          <p>Ruth Bader Ginsburg’s fight for equality. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/81260228" target="_blank">The Woman King (2022)</a>
+          <p>Fictionalized story of the Agojie warriors. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.hotstar.com/in/movies/mission-mangal/1260012026" target="_blank">Mission Mangal (2019)</a>
+          <p>India’s Mars mission led by women. <strong>Hotstar</strong></p>
+        </div>
+    
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/60000921" target="_blank">Erin Brockovich (2000)</a>
+          <p>Legal battle for environmental justice. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.hotstar.com/in/movies/he-named-me-malala/1000090041" target="_blank">He Named Me Malala (2015)</a>
+          <p>Malala's courageous journey for education. <strong>Hotstar</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.amazon.com/Raazi-Alia-Bhatt/dp/B07D4Q28RQ" target="_blank">Raazi (2018)</a>
+          <p>A female Indian spy’s true story. <strong>Amazon Prime</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/81292944" target="_blank">Gunjan Saxena (2020)</a>
+          <p>India’s first female combat pilot. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.hotstar.com/in/movies/pink/177001" target="_blank">Pink (2016)</a>
+          <p>Legal battle against gender prejudice. <strong>Hotstar</strong></p>
+        </div>
+        
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/81260228" target="_blank">The Woman King (2022)</a>
+          <p>All-female warriors in African history. <strong>Netflix</strong></p>
+        </div>
+        
+        <div class="swiper-slide link-item">
+          <a href="https://www.netflix.com/title/80202462" target="_blank">Self Made (2020)</a>
+          <p>Life of Madam C.J. Walker. <strong>Netflix</strong></p>
+        </div>
+        <div class="swiper-slide link-item">
+          <a href="https://www.hotstar.com/in/movies/he-named-me-malala/1000090041" target="_blank">He Named Me Malala (2015)</a>
+          <p>Malala's global fight for education. <strong>Hotstar</strong></p>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="quote-popup" id="quoteBox"></div>
+    
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: { slidesPerView: 1.2 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

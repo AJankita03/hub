@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stree Shakti</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    
+
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="podcasts.html">🎙 </a></li>
+      <li><a href="connections.html">🌐 </a></li>
+      <li><a href="recommendations.html">🎬 </a></li>
+    </ul>
+    
+  </nav>
+  <button id="toggleTheme" class="theme-toggle">🌓 Toggle Theme</button>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="🔍 Search..." onkeyup="filterItems()" />
+  </div>
+  
+  <header>
+    <h1>🌸 Stree Shakti 🌸</h1>
+    <p>Celebrating Iconic Women in Every Field</p>
+  </header>
+
+  <section class="blocks">
+    <div class="block" onclick="location.href='podcasts.html'">
+      <h2>🎙 Podcasts</h2>
+      <p>Explore inspiring women-centric podcasts and books</p>
+    </div>
+    <div class="block" onclick="location.href='connections.html'">
+      <h2>🌐 Connections</h2>
+      <p>Meet women changemakers across fields</p>
+    </div>
+    <div class="block" onclick="location.href='recommendations.html'">
+      <h2>🎬 Recommendations</h2>
+      <p>Watch films and series on women’s strength</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="quote-popup" id="quoteBox"></div>
+    <p>&copy; 2025 Stree Shakti | Empowering Every Woman</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
