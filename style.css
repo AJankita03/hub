@@ -167,11 +167,11 @@ body.dark {
 body.dark header,
 body.dark footer,
 body.dark .link-item {
-  background: #010a4a;
+  background: #040a36;
   color: #f1f1f1;
 }
 body.dark .block {
-  background: #504a4a;
+ background: #040832;
 }
 .swiper-slide {
   display: flex;
