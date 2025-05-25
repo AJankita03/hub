@@ -1,14 +1,14 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #d2f6f0, #c6e7fc);
-  color: #333;
+  background: linear-gradient(to right, #e4fffa, #93fcec);
+  color: #021c5b;
 }
 
 header {
   text-align: center;
   padding: 2rem;
-  background: #0b1b5b;
+  background: #5c6b6ece;
   color: white;
 }
 
@@ -21,7 +21,7 @@ header {
 }
 
 .block {
-  background: rgb(147, 183, 190);
+  background: rgb(179, 222, 214);
   border-radius: 15px;
   padding: 2rem;
   width: 300px;
@@ -33,7 +33,7 @@ header {
 
 .block:hover {
   transform: scale(1.05);
-  background: #edf0f3;
+  background: #fbfdff;
 }
 
 .links {
@@ -45,12 +45,12 @@ header {
 }
 
 .link-item {
-  background: #8db8c8;
+  background: #91ccc9;
   color: #333;
   padding: 1rem 2rem;
   border-radius: 10px;
   width: 60%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(35, 35, 35, 0.1);
   transition: background 0.3s;
 }
 
@@ -61,7 +61,7 @@ header {
 }
 
 .link-item:hover {
-  background: #051b3e;
+  background: #204c44;
   color: white;
 }
 
@@ -79,7 +79,7 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   background: #fffdfd;
-  color: rgb(2, 64, 70);
+  color: rgb(3, 45, 49);
   padding: 1rem 2rem;
   border-radius: 10px;
   font-style: italic;
@@ -117,7 +117,7 @@ footer {
   color: #042458;
 }
 .navbar {
-  background-color: #819ba8;
+  background-color: #d6e5e2;
   padding: 1rem;
   display: flex;
   justify-content: center;
@@ -171,7 +171,7 @@ body.dark .link-item {
   color: #f1f1f1;
 }
 body.dark .block {
- background: #040832;
+  background: #040832;
 }
 .swiper-slide {
   display: flex;
